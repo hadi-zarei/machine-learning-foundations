@@ -9,5 +9,3 @@
 ## دادهٔ موردنیاز
 
 `data/titanic.csv`
-
-نسخهٔ اصلی نوت‌بوک، مسیر مطلقِ `D:\\data sets\\titanic.csv` دارد. این کد عمداً تغییر داده نشده است؛ جزئیات در [`data/README.md`](../../data/README.md) آمده است.
