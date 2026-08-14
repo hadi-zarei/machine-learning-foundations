@@ -17,27 +17,37 @@
 
 ### Windows
 
-1. Git و Python 3 را نصب کنید.
-2. **PowerShell** را باز کنید.
-3. دستورهای زیر را اجرا کنید:
+<div dir="rtl" align="right">
 
-   ```powershell
-   cd $HOME\Documents
-   mkdir MachineLearning -ErrorAction SilentlyContinue
-   cd MachineLearning
-   git clone https://github.com/hadi-zarei/machine-learning-foundations.git
-   cd machine-learning-foundations
-   py -m venv .venv
-   .\.venv\Scripts\Activate.ps1
-   python -m pip install -r 01-linear-regression/requirements.txt
-   jupyter lab
-   ```
+۱. ابتدا Git و Python 3 را نصب کنید.
 
-   اگر اجرای اسکریپت فعال‌سازی مسدود شد، یک‌بار این دستور را در همان PowerShell اجرا کنید و سپس دستور فعال‌سازی را تکرار کنید:
+۲. سپس **PowerShell** را باز کنید.
 
-   ```powershell
-   Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-   ```
+۳. دستورهای زیر را اجرا کنید:
+
+</div>
+
+```powershell
+cd $HOME\Documents
+mkdir MachineLearning -ErrorAction SilentlyContinue
+cd MachineLearning
+git clone https://github.com/hadi-zarei/machine-learning-foundations.git
+cd machine-learning-foundations
+py -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install -r 01-linear-regression/requirements.txt
+jupyter lab
+```
+
+<div dir="rtl" align="right">
+
+اگر اجرای اسکریپت فعال‌سازی مسدود شد، یک‌بار دستور زیر را در همان PowerShell اجرا کنید و سپس دستور فعال‌سازی را تکرار کنید:
+
+</div>
+
+```powershell
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+```
 
 ### Linux
 
