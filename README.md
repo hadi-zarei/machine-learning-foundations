@@ -88,12 +88,6 @@ python -m pip install -r 01-linear-regression/requirements.txt
 python -m pip install -r requirements.txt
 ```
 
-## اجرای JupyterLab
-
-```bash
-jupyter lab
-```
-
 ### دریافت بدون Git
 
 اگر Git نصب نیست، از صفحهٔ مخزن روی **Code → Download ZIP** بزنید، فایل را Extract کنید و سپس از پوشهٔ پروژه، مراحل ساخت محیط مجازی و نصب وابستگیِ سیستم‌عامل خود را ادامه دهید.
