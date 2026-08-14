@@ -1,0 +1,2 @@
+# Preserve original Jupyter notebook bytes; do not apply line-ending conversion.
+*.ipynb -text
