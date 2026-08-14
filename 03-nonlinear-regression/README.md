@@ -12,5 +12,3 @@
 - `data/auto-test-preprocessed.csv`
 - `data/auto-train-multi.csv`
 - `data/auto-test-multi.csv`
-
-یک سلول به مسیر مطلقِ نسخهٔ اصلی اشاره دارد؛ کد آن طبق درخواست مدرس تغییر نکرده است.
