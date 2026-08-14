@@ -34,8 +34,6 @@ git clone https://github.com/hadi-zarei/machine-learning-foundations.git
 cd machine-learning-foundations
 py -m venv .venv
 .\.venv\Scripts\Activate.ps1
-python -m pip install -r 01-linear-regression/requirements.txt
-jupyter lab
 ```
 
 <div dir="rtl" align="right">
@@ -60,26 +58,46 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
    cd machine-learning-foundations
    python3 -m venv .venv
    source .venv/bin/activate
-   python -m pip install -r 01-linear-regression/requirements.txt
-   jupyter lab
    ```
 
-### دریافت بدون Git
-
-اگر Git نصب نیست، از صفحهٔ مخزن روی **Code → Download ZIP** بزنید، فایل را Extract کنید و سپس از پوشهٔ پروژه، مراحل ساخت محیط مجازی و نصب وابستگیِ سیستم‌عامل خود را ادامه دهید.
-
-## وابستگی‌ها و داده‌ها
-
-### نصب همهٔ بخش‌ها
+## نصب وابستگی‌ها
 
 <div dir="rtl" align="right">
 
-اگر می‌خواهید همهٔ بخش‌های دوره و پروژه‌ها را یک‌جا اجرا کنید، پس از فعال‌سازی محیط مجازی، دستور زیر را از ریشهٔ مخزن اجرا کنید:
+پس از ساخت و فعال‌سازی محیط مجازی، یکی از دو روش زیر را انتخاب کنید:
+
+### نصب وابستگی‌های یک بخش
+
+اگر فقط می‌خواهید یک بخش مشخص را اجرا کنید، وابستگی‌های همان پوشه را نصب کنید. نمونه برای بخش اول:
+
+</div>
+
+```bash
+python -m pip install -r 01-linear-regression/requirements.txt
+```
+
+<div dir="rtl" align="right">
+
+### نصب وابستگی‌های همهٔ بخش‌ها
+
+اگر می‌خواهید تمام جلسات و پروژه‌ها را یک‌جا اجرا کنید، همهٔ وابستگی‌ها را از فایل ریشهٔ مخزن نصب کنید:
 
 </div>
 
 ```bash
 python -m pip install -r requirements.txt
 ```
+
+## اجرای JupyterLab
+
+```bash
+jupyter lab
+```
+
+### دریافت بدون Git
+
+اگر Git نصب نیست، از صفحهٔ مخزن روی **Code → Download ZIP** بزنید، فایل را Extract کنید و سپس از پوشهٔ پروژه، مراحل ساخت محیط مجازی و نصب وابستگیِ سیستم‌عامل خود را ادامه دهید.
+
+## وابستگی‌ها و داده‌ها
 
 هر بخش `requirements.txt` اختصاصی خود را دارد. فهرست دقیق فایل‌های دادهٔ موردنیاز در [`data/README.md`](data/README.md) نگهداری می‌شود.
