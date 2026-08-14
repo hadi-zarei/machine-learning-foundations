@@ -15,7 +15,14 @@
 
 ## شروع سریع
 
-1. این مخزن را Clone کنید یا با **Code → Download ZIP** دریافت کنید.
+1. اگر Git نصب دارید، این دستورها را در ترمینال اجرا کنید:
+
+   ```bash
+   git clone https://github.com/hadi-zarei/machine-learning-foundations.git
+   cd machine-learning-foundations
+   ```
+
+   اگر Git نصب ندارید، از **Code → Download ZIP** برای دریافت فایل‌ها استفاده کنید.
 2. از ریشهٔ مخزن، وابستگیِ بخش موردنظر را نصب کنید. نمونه:
 
    ```bash
