@@ -70,4 +70,16 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 ## وابستگی‌ها و داده‌ها
 
+### نصب همهٔ بخش‌ها
+
+<div dir="rtl" align="right">
+
+اگر می‌خواهید همهٔ بخش‌های دوره و پروژه‌ها را یک‌جا اجرا کنید، پس از فعال‌سازی محیط مجازی، دستور زیر را از ریشهٔ مخزن اجرا کنید:
+
+</div>
+
+```bash
+python -m pip install -r requirements.txt
+```
+
 هر بخش `requirements.txt` اختصاصی خود را دارد. فهرست دقیق فایل‌های دادهٔ موردنیاز در [`data/README.md`](data/README.md) نگهداری می‌شود.
