@@ -29,8 +29,6 @@
 
 ```powershell
 cd $HOME\Documents
-mkdir MachineLearning -ErrorAction SilentlyContinue
-cd MachineLearning
 git clone https://github.com/hadi-zarei/machine-learning-foundations.git
 cd machine-learning-foundations
 py -m venv .venv
