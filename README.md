@@ -28,7 +28,6 @@
 </div>
 
 ```powershell
-cd $HOME\Documents
 mkdir projects-machine-learning
 cd projects-machine-learning
 git clone https://github.com/hadi-zarei/machine-learning-foundations.git
