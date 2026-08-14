@@ -36,16 +36,6 @@ py -m venv .venv
 .\.venv\Scripts\Activate.ps1
 ```
 
-<div dir="rtl" align="right">
-
-اگر اجرای اسکریپت فعال‌سازی مسدود شد، یک‌بار دستور زیر را در همان PowerShell اجرا کنید و سپس دستور فعال‌سازی را تکرار کنید:
-
-</div>
-
-```powershell
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-```
-
 ### Linux
 
 1. Terminal را باز کنید.
