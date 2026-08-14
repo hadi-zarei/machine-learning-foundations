@@ -29,6 +29,8 @@
 
 ```powershell
 cd $HOME\Documents
+mkdir projects-machine-learning -ErrorAction SilentlyContinue
+cd projects-machine-learning
 git clone https://github.com/hadi-zarei/machine-learning-foundations.git
 cd machine-learning-foundations
 py -m venv .venv
@@ -53,8 +55,8 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 2. دستورهای زیر را اجرا کنید:
 
    ```bash
-   mkdir -p ~/projects
-   cd ~/projects
+   mkdir -p ~/projects-machine-learning
+   cd ~/projects-machine-learning
    git clone https://github.com/hadi-zarei/machine-learning-foundations.git
    cd machine-learning-foundations
    python3 -m venv .venv
